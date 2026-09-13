@@ -209,23 +209,6 @@ a{color:inherit;text-decoration:none;}
 .about p{font-size:clamp(14px,1.15vw,15.5px);line-height:1.95;color:var(--ink);max-width:34rem;margin:0 auto;}
 .about .tagline{margin-top:1em;}
 
-/* ============================ CONTACT（トップ） ============================ */
-.contact{padding:clamp(32px,6vw,68px) 0 clamp(30px,5vw,56px);border-top:1.4px solid var(--line);position:relative;}
-.contact .inner{display:flex;align-items:center;gap:clamp(20px,4vw,52px);flex-wrap:wrap;}
-.envelope{flex:0 0 auto;width:clamp(120px,16vw,180px);height:auto;overflow:visible;}
-.envelope .body{fill:var(--pink);stroke:var(--pink-deep);stroke-width:2;}
-.envelope .flap{fill:#e7a6c4;stroke:var(--pink-deep);stroke-width:2;}
-.envelope .note{fill:#faf7ec;stroke:var(--line);stroke-width:1.5;}
-.envelope .scribble{fill:none;stroke:var(--muted);stroke-width:1.6;stroke-linecap:round;}
-.contact .msg{flex:1 1 300px;}
-.contact .msg p{font-size:clamp(14px,1.3vw,16px);line-height:1.9;color:var(--ink);max-width:26rem;}
-.contact .dm{
-  display:inline-flex;align-items:center;gap:.5em;margin-top:1.1em;
-  font-family:var(--f-jp);font-weight:700;font-size:clamp(14px,1.2vw,15px);color:var(--ink);
-  border-bottom:2px solid var(--pink);padding-bottom:2px;
-}
-.contact .dm:hover,.contact .dm:focus-visible{color:var(--pink-deep);outline:none;}
-
 /* ============================ 詳細ページ ============================ */
 .page{padding-bottom:20px;}
 .back{
@@ -322,11 +305,6 @@ a{color:inherit;text-decoration:none;}
 
   .consult{padding:22px 0;}
   .about{padding:22px 0;}
-
-  .contact{padding:28px 0 24px;}
-  .contact .inner{gap:16px;}
-  .envelope{width:104px;}
-  .contact .msg p{font-size:15px;}
 
   .detail{max-width:none;}
   .d-block p,.d-block li{font-size:14.5px;}
