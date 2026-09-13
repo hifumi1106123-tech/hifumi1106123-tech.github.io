@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HIFUMI | 石垣島の旅・暮らし・リトリート</title>
+<meta name="description" content="子ども2人と東京から石垣島へ移住。プライベートガイド、島の暮らし体験、脳科学の学びを取り入れたリトリート、ホームページ制作。気になる活動から詳細ページへどうぞ。">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="HIFUMI">
+<meta property="og:description" content="石垣島の旅・暮らし体験・リトリート・HP制作。あなたの「やってみたい」を、一緒に形に。">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,500;1,600&family=Caveat:wght@500;600;700&family=Archivo:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- ============================ 1. プロフィール（表紙） ============================ -->
+  <header class="hero">
+    <div class="cover">
+      <div class="cover-stage">
+        <div class="cover-person">
+          <!-- 人物写真（切り抜き・透過PNG）。差し替えは images/portrait-cutout.png を上書き。元画像は images/portrait-original.jpg -->
+          <img src="images/portrait-cutout.png" alt="hifumi" onerror="this.style.visibility='hidden'">
+          <span class="halftone" aria-hidden="true"></span>
+        </div>
+        <span class="cover-kicker" aria-hidden="true">Life &amp; Work in Ishigaki</span>
+        <h1 class="name-front">hifumi</h1>
+      </div>
+    </div>
+
+    <p class="role">旅 &nbsp;/&nbsp; 島の暮らし &nbsp;/&nbsp; リトリート &nbsp;/&nbsp; HP制作</p>
+
+    <div class="lede">
+      <p>
+        石垣島での旅や暮らしの体験から、<br>
+        ホームページ制作まで。<br>
+        サービスの詳細やご相談先を、<br>
+        下のメニューにまとめています。
+      </p>
+    </div>
+  </header>
+
+  <!-- ============================ 2. サービス一覧 ============================ -->
+  <section class="entries" aria-label="サービス一覧">
+    <div class="sec-head">
+      <h2>サービス一覧</h2>
+      <p>サービス名を押すと詳しい説明が開きます。下のリンクから、それぞれのホームページやInstagramへ進めます。</p>
+    </div>
+
+    <div class="grid">
+
+      <!-- ① タイトル→guide.html（サイト内説明）／案内リンク→専用サイト＋相談フォーム（外部） -->
+      <div class="entry entry-multi">
+        <span class="num">01</span>
+        <a class="etitle-link" href="guide.html" data-link="private-guide"><span class="etitle"><span class="u">私たちらしい</span>石垣旅</span></a>
+        <span class="ename">Ishigaki Private</span>
+        <span class="edesc">1日1組。あなたに合わせたプライベートガイド。</span>
+
+        <div class="elinks">
+          <a class="ego" href="https://hifumi1106123-tech.github.io/ishigaki-private-guide/" data-link="private-guide-site" rel="noopener">詳しい内容を見る <svg class="arrow" viewBox="0 0 24 10" aria-hidden="true"><path d="M1 5 H21 M16 1 L22 5 L16 9"/></svg></a>
+          <a class="ego" href="https://forms.gle/qCoBGyqYRU5DsPyQ9" data-link="private-guide-consult" rel="noopener">プライベートガイドについて相談する <svg class="arrow" viewBox="0 0 24 10" aria-hidden="true"><path d="M1 5 H21 M16 1 L22 5 L16 9"/></svg></a>
+        </div>
+      </div>
+
+      <!-- ② タイトル→living.html（サイト内説明）／専用ホームページは準備中のためリンクなし -->
+      <div class="entry">
+        <span class="num">02</span>
+        <a class="etitle-link" href="living.html" data-link="living-experience"><span class="etitle">島で<span class="u">暮らすように過ごす</span></span></a>
+        <span class="ename">島の暮らし体験</span>
+        <span class="edesc">島の日常に触れたい方、移住に興味がある方へ。</span>
+        <!-- 専用ホームページが決まったら <a class="ego" href="URL" data-link="living-experience-site"> に差し替え -->
+        <span class="ego pending">ホームページ準備中</span>
+      </div>
+
+      <!-- ③ タイトル→retreat.html（サイト内説明）／案内リンク→リトリート専用サイト＋相談先（外部） -->
+      <div class="entry">
+        <span class="num">03</span>
+        <a class="etitle-link" href="retreat.html" data-link="back-to-me"><span class="etitle"><span class="u">自分に戻る</span>時間</span></a>
+        <span class="ename">Back to Me</span>
+        <span class="edesc">脳科学の学びを取り入れた、石垣島のリトリート。</span>
+
+        <div class="elinks">
+          <a class="ego" href="https://hifumi1106123-tech.github.io/ishigaki-retreat/" data-link="back-to-me-site" rel="noopener">リトリートの詳しい内容を見る <svg class="arrow" viewBox="0 0 24 10" aria-hidden="true"><path d="M1 5 H21 M16 1 L22 5 L16 9"/></svg></a>
+          <!-- 事前相談（Zoom）・日程調整用のGoogleフォーム -->
+          <a class="ego" href="https://forms.gle/fpzeWErv7SYvCA1t8" data-link="back-to-me-consult" rel="noopener">リトリートについて相談する <svg class="arrow" viewBox="0 0 24 10" aria-hidden="true"><path d="M1 5 H21 M16 1 L22 5 L16 9"/></svg></a>
+        </div>
+      </div>
+
+      <!-- ④ タイトル→webpage.html（サイト内説明）／専用ホームページは準備中のためリンクなし -->
+      <div class="entry">
+        <span class="num">04</span>
+        <a class="etitle-link" href="webpage.html" data-link="lp-production"><span class="etitle">お店やサービスの<span class="u">HPをつくりたい</span></span></a>
+        <span class="ename">LP・ホームページ制作</span>
+        <span class="edesc">小さなお店や個人の活動を、見やすい1ページに。</span>
+        <!-- 制作実績・専用ページが整ったら <a class="ego" href="URL" data-link="lp-production-site"> に差し替え -->
+        <span class="ego pending">ホームページ準備中</span>
+      </div>
+
+      <!-- ⑤ タイトル→webcoach.html（サイト内説明）／案内リンク→WEBCOACH公式サイト（外部・紹介URL） -->
+      <div class="entry">
+        <span class="num">05</span>
+        <a class="etitle-link" href="webcoach.html" data-link="webcoach"><span class="etitle">Web・SNSを<span class="u">学びたい</span></span></a>
+        <span class="ename">WEBCOACH <span class="pr">PR</span></span>
+        <span class="edesc">私も学んでいるオンラインスクール。Web・SNSの学び方や、自分に合う働き方について、無料でオンライン相談ができます。</span>
+        <a class="ego" href="https://www.webcoach.jp/free-counseling-giftcode-fumi/?fbclid=PAdGRleAUTQTRwZG9mAmZkaWQWUOVfcz4EI5Q-mVOtl0yYZH4jKhIz1mV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp-dgw7l0I5NH1odtqE1-YRW8GwP4kvvydpRiaJ39pDUbnYeXcFirPnxSEBne_aem_voMJywvUWAPAgQfBrGzNFQ" data-link="webcoach-referral" rel="sponsored nofollow">ウェブコーチの案内を見る <svg class="arrow" viewBox="0 0 24 10" aria-hidden="true"><path d="M1 5 H21 M16 1 L22 5 L16 9"/></svg></a>
+      </div>
+
+      <!-- ⑥ タイトル→about.html（サイト内の自己紹介）／案内リンク→Instagram（外部） -->
+      <div class="entry">
+        <span class="num">06</span>
+        <a class="etitle-link" href="about.html" data-link="about-hifumi"><span class="etitle">普段の私は<span class="u">こちら</span></span></a>
+        <span class="ename">Instagram</span>
+        <span class="edesc">石垣島での暮らし、子育て、日々の活動。</span>
+        <!-- Instagram: 既存サイト（ishigaki-private-guide）に掲載のアカウント @hi_fumifumi を設定。別アカウントなら要修正 -->
+        <a class="ego" href="https://www.instagram.com/hi_fumifumi/" data-link="instagram" rel="noopener">Instagramへ <svg class="arrow" viewBox="0 0 24 10" aria-hidden="true"><path d="M1 5 H21 M16 1 L22 5 L16 9"/></svg></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================ 3. ご相談について ============================ -->
+  <section class="consult" aria-label="ご相談について">
+    <h2>ご相談について</h2>
+    <p>
+      各サービスのGoogleフォームに、ご希望をご入力ください。<br>
+      内容を確認し、こちらからご連絡いたします。<br>
+      日程や詳しい内容は、一緒に相談しながら決めていきます。
+    </p>
+    <p class="note">フォームの送信だけで、ご予約・お申し込みが確定することはありません。まずはお気軽にご相談ください。</p>
+  </section>
+
+  <!-- ============================ 4. 自己紹介 ============================ -->
+  <section class="about" aria-label="自己紹介">
+    <p>
+      子ども2人と、東京から石垣島へ移住。<br>
+      プライベートガイドや島の暮らし体験、<br>
+      脳科学の学びを取り入れたリトリート、<br>
+      ホームページ制作の代行をしています。
+    </p>
+    <span class="tagline">あなたの「やってみたい」を、一緒に形に。</span>
+  </section>
+
+  <!-- ============================ 5. 相談先 ============================ -->
+  <section class="contact" aria-label="相談先">
+    <div class="inner">
+      <svg class="envelope" viewBox="0 0 120 90" aria-hidden="true">
+        <rect class="body" x="6" y="24" width="108" height="60" rx="4"/>
+        <path class="note" d="M24 14 h60 v44 h-60 z"/>
+        <path class="scribble" d="M32 24 h44 M32 32 h44 M32 40 h30"/>
+        <path class="flap" d="M6 26 L60 60 L114 26 L114 30 L60 64 L6 30 Z"/>
+      </svg>
+      <div class="msg">
+        <p>何から相談したらいいか迷ったら、<br>「こんなことできる？」から、お気軽に。</p>
+        <!-- TODO: InstagramのDM／プロフィールURLを設定 -->
+        <a class="dm" href="#" data-link="dm">InstagramのDMで相談する
+          <svg class="arrow" viewBox="0 0 24 10" aria-hidden="true"><path d="M1 5 H21 M16 1 L22 5 L16 9"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">© <span id="y"></span> HIFUMI — 石垣島</footer>
+
+</div>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
